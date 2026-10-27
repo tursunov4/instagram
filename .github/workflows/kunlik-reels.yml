@@ -1,0 +1,101 @@
+name: Kunlik Reels
+
+on:
+  schedule:
+    - cron: "0 14 * * *"   # har kuni 19:00 (Toshkent vaqti = UTC+5)
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Sinov: video yasaladi, lekin Instagram'ga chiqmaydi"
+        type: boolean
+        default: true
+      force:
+        description: "Bugun chiqqan bo'lsa ham yana chiqarish"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: kunlik-reels
+  cancel-in-progress: false
+
+jobs:
+  reel:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      PUBLISHER: ${{ vars.PUBLISHER || 'instagram' }}
+      TTS_VOICE: ${{ vars.TTS_VOICE || 'uz-UZ-MadinaNeural' }}
+      CLAUDE_MODEL: ${{ vars.CLAUDE_MODEL || 'claude-sonnet-5-5' }}
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+      GH_PAT: ${{ secrets.GH_PAT }}
+      AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+      AZURE_SPEECH_REGION: ${{ vars.AZURE_SPEECH_REGION }}
+      METRICOOL_TOKEN: ${{ secrets.METRICOOL_TOKEN }}
+      METRICOOL_USER_ID: "5764971"
+      METRICOOL_BLOG_ID: "7418601"
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dasturlar va shriftlar
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
+          pip install -q -r requirements.txt
+          mkdir -p fonts
+          for w in Black ExtraBold Bold SemiBold Medium; do
+            curl -sfL -o fonts/Montserrat-$w.ttf \
+              https://raw.githubusercontent.com/JulietaUla/Montserrat/master/fonts/ttf/Montserrat-$w.ttf
+          done
+
+      - name: Video yasash va joylash
+        run: |
+          set -o pipefail
+          mkdir -p out
+          ARGS=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ "${{ inputs.force }}" = "true" ]; then ARGS="$ARGS --force"; fi
+          python reels/main.py $ARGS 2>&1 | tee out/run.log
+
+      - name: Videoni ko'rish uchun saqlash
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reel-${{ github.run_number }}
+          path: |
+            out/*.mp4
+            out/*.jpg
+            out/caption.txt
+            out/*.html
+          retention-days: 14
+          if-no-files-found: ignore
+
+      - name: Oxirgi natijani preview tarmog'iga qo'yish
+        if: always()
+        run: |
+          mkdir -p /tmp/pv
+          cp out/*.mp4 out/*.jpg out/caption.txt out/run.log out/*.html /tmp/pv/ 2>/dev/null || true
+          cd /tmp/pv
+          git init -q -b preview
+          git add -A
+          git -c user.name=arzoni-bot -c user.email=arzoni-bot@users.noreply.github.com commit -q -m "preview $(date -u +%F)" || exit 0
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" preview
+
+      - name: Holatni saqlash
+        if: always()
+        run: |
+          git config user.name "arzoni-bot"
+          git config user.email "arzoni-bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet || (git commit -q -m "holat $(date -u +%F)" && git push -q)

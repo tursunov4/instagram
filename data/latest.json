@@ -1,0 +1,26 @@
+{
+  "date": "21.10.2026",
+  "stores": ["Baraka", "Havas", "Korzinka", "Magnit", "Makro", "Olma"],
+  "products": [
+    {"name": "Bug'doy uni (1-nav)", "category": "Don mahsulotlari", "unit": "1 kg", "prices": {"Baraka": 10450, "Havas": 10500, "Korzinka": 7998, "Magnit": 6495, "Makro": 9247}},
+    {"name": "Bug'doy uni (oliy nav)", "category": "Don mahsulotlari", "unit": "1 kg", "prices": {"Baraka": 13900, "Havas": 13500, "Korzinka": 13245, "Magnit": 12990, "Makro": 13745, "Olma": 13590}},
+    {"name": "Guruch (alanga)", "category": "Don mahsulotlari", "unit": "1 kg", "prices": {"Baraka": 18222, "Havas": 16900, "Korzinka": 17745, "Magnit": 17490, "Makro": 18322, "Olma": 16995}},
+    {"name": "Guruch (lazer)", "category": "Don mahsulotlari", "unit": "1 kg", "prices": {"Baraka": 21555, "Havas": 21500, "Korzinka": 20995, "Magnit": 19990, "Makro": 21655, "Olma": 20495}},
+    {"name": "Lahm (mol go'shti)", "category": "Go'sht mahsulotlari", "unit": "1 kg", "prices": {"Baraka": 169900, "Korzinka": 175990, "Magnit": 179990, "Makro": 169990}},
+    {"name": "Muzlatilgan go'sht (import)", "category": "Go'sht mahsulotlari", "unit": "1 kg", "prices": {"Baraka": 99900, "Havas": 94950, "Korzinka": 89990}},
+    {"name": "Qiyma (farsh)", "category": "Go'sht mahsulotlari", "unit": "1 kg", "prices": {"Baraka": 124900, "Havas": 84950, "Korzinka": 109990, "Magnit": 119990, "Makro": 92990}},
+    {"name": "Sarpanja (mol go'shti)", "category": "Go'sht mahsulotlari", "unit": "1 kg", "prices": {"Korzinka": 139990, "Magnit": 149990, "Makro": 129990}},
+    {"name": "Qo'y go'shti (son qismi)", "category": "Go'sht mahsulotlari", "unit": "1 kg", "prices": {"Korzinka": 174990, "Magnit": 178990, "Makro": 162990}},
+    {"name": "Parranda go'shti (boldiri)", "category": "Go'sht mahsulotlari", "unit": "1 kg", "prices": {"Baraka": 49900, "Havas": 43900, "Korzinka": 44890, "Magnit": 45990, "Makro": 43490, "Olma": 44990}},
+    {"name": "Parranda go'shti (butun)", "category": "Go'sht mahsulotlari", "unit": "1 kg", "prices": {"Baraka": 44900, "Havas": 48900, "Korzinka": 47990, "Makro": 38990, "Olma": 44990}},
+    {"name": "Kungaboqar yog'i", "category": "Yog'lar", "unit": "1 litr", "prices": {"Baraka": 28900, "Havas": 29500, "Korzinka": 28390, "Magnit": 27990, "Makro": 27490, "Olma": 28990}},
+    {"name": "Paxta yog'i", "category": "Yog'lar", "unit": "1 litr", "prices": {"Havas": 23450, "Korzinka": 25544, "Makro": 25490}},
+    {"name": "Banan", "category": "Sabzavot va mevalar", "unit": "1 kg", "prices": {"Baraka": 18900, "Havas": 18500, "Korzinka": 18490, "Magnit": 18990, "Makro": 19490, "Olma": 18490}},
+    {"name": "Kartoshka", "category": "Sabzavot va mevalar", "unit": "1 kg", "prices": {"Baraka": 6400, "Havas": 6450, "Korzinka": 8990, "Magnit": 8490, "Makro": 7990, "Olma": 7990}},
+    {"name": "Sabzi (sariq)", "category": "Sabzavot va mevalar", "unit": "1 kg", "prices": {"Baraka": 8900, "Havas": 8850, "Korzinka": 8990, "Magnit": 8490, "Makro": 9990, "Olma": 9990}},
+    {"name": "Piyoz", "category": "Sabzavot va mevalar", "unit": "1 kg", "prices": {"Baraka": 3400, "Havas": 3700, "Korzinka": 4990, "Magnit": 3990, "Makro": 4490, "Olma": 3890}},
+    {"name": "Pomidor (qizil)", "category": "Sabzavot va mevalar", "unit": "1 kg", "prices": {"Baraka": 18900, "Havas": 16950, "Korzinka": 17990, "Magnit": 20990, "Makro": 10990, "Olma": 16990}},
+    {"name": "Bodring (orzu)", "category": "Sabzavot va mevalar", "unit": "1 kg", "prices": {"Baraka": 12900, "Havas": 11950, "Korzinka": 9890, "Magnit": 14490, "Makro": 11490, "Olma": 9990}},
+    {"name": "Shakar", "category": "Boshqa", "unit": "1 kg", "prices": {"Baraka": 13777, "Havas": 13475, "Korzinka": 11995, "Magnit": 12990, "Makro": 13877, "Olma": 11995}}
+  ]
+}
