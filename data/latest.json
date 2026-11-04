@@ -10,7 +10,7 @@
  ],
  "products": [
   {
-   "name": "Bug'doy uni (1-nav)",
+   "name": "Buğdoy uni (1-nav)",
    "category": "Don mahsulotlari",
    "unit": "1 kg",
    "prices": {
@@ -22,7 +22,7 @@
    }
   },
   {
-   "name": "Bug'doy uni (oliy nav)",
+   "name": "Buğdoy uni (oliy nav)",
    "category": "Don mahsulotlari",
    "unit": "1 kg",
    "prices": {
@@ -35,7 +35,7 @@
    }
   },
   {
-   "name": "Guruch (alanga)",
+   "name": "Guruç (alanga)",
    "category": "Don mahsulotlari",
    "unit": "1 kg",
    "prices": {
@@ -48,7 +48,7 @@
    }
   },
   {
-   "name": "Guruch (lazer)",
+   "name": "Guruç (lazer)",
    "category": "Don mahsulotlari",
    "unit": "1 kg",
    "prices": {
@@ -61,8 +61,8 @@
    }
   },
   {
-   "name": "Lahm (mol go'shti)",
-   "category": "Go'sht mahsulotlari",
+   "name": "Lahm (mol göşti)",
+   "category": "Göşt mahsulotlari",
    "unit": "1 kg",
    "prices": {
     "Baraka": 169900,
@@ -72,8 +72,8 @@
    }
   },
   {
-   "name": "Muzlatilgan go'sht (import)",
-   "category": "Go'sht mahsulotlari",
+   "name": "Muzlatilgan göşt (import)",
+   "category": "Göşt mahsulotlari",
    "unit": "1 kg",
    "prices": {
     "Baraka": 99900,
@@ -82,8 +82,8 @@
    }
   },
   {
-   "name": "Qiyma (farsh)",
-   "category": "Go'sht mahsulotlari",
+   "name": "Qiyma (farş)",
+   "category": "Göşt mahsulotlari",
    "unit": "1 kg",
    "prices": {
     "Baraka": 124900,
@@ -94,8 +94,8 @@
    }
   },
   {
-   "name": "Sarpanja (mol go'shti)",
-   "category": "Go'sht mahsulotlari",
+   "name": "Sarpanja (mol göşti)",
+   "category": "Göşt mahsulotlari",
    "unit": "1 kg",
    "prices": {
     "Korzinka": 139990,
@@ -104,8 +104,8 @@
    }
   },
   {
-   "name": "Qo'y go'shti (son qismi)",
-   "category": "Go'sht mahsulotlari",
+   "name": "Qöy göşti (son qismi)",
+   "category": "Göşt mahsulotlari",
    "unit": "1 kg",
    "prices": {
     "Korzinka": 174990,
@@ -114,8 +114,8 @@
    }
   },
   {
-   "name": "Parranda go'shti (boldiri)",
-   "category": "Go'sht mahsulotlari",
+   "name": "Parranda göşti (boldiri)",
+   "category": "Göşt mahsulotlari",
    "unit": "1 kg",
    "prices": {
     "Baraka": 49900,
@@ -127,8 +127,8 @@
    }
   },
   {
-   "name": "Parranda go'shti (butun)",
-   "category": "Go'sht mahsulotlari",
+   "name": "Parranda göşti (butun)",
+   "category": "Göşt mahsulotlari",
    "unit": "1 kg",
    "prices": {
     "Baraka": 44900,
@@ -139,8 +139,8 @@
    }
   },
   {
-   "name": "Kungaboqar yog'i",
-   "category": "Yog'lar",
+   "name": "Kungaboqar yoği",
+   "category": "Yoğlar",
    "unit": "1 litr",
    "prices": {
     "Baraka": 28900,
@@ -152,8 +152,8 @@
    }
   },
   {
-   "name": "Paxta yog'i",
-   "category": "Yog'lar",
+   "name": "Paxta yoği",
+   "category": "Yoğlar",
    "unit": "1 litr",
    "prices": {
     "Havas": 23450,
@@ -175,7 +175,7 @@
    }
   },
   {
-   "name": "Kartoshka",
+   "name": "Kartoşka",
    "category": "Sabzavot va mevalar",
    "unit": "1 kg",
    "prices": {
@@ -240,8 +240,8 @@
    }
   },
   {
-   "name": "Shakar",
-   "category": "Boshqa",
+   "name": "Şakar",
+   "category": "Boşqa",
    "unit": "1 kg",
    "prices": {
     "Baraka": 13777,
