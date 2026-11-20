@@ -1,5 +1,5 @@
 {
- "date": "04.11.2026",
+ "date": "20.11.2026",
  "stores": [
   "Baraka",
   "Havas",
@@ -16,9 +16,9 @@
    "prices": {
     "Baraka": 10450,
     "Havas": 10500,
-    "Korzinka": 7998,
-    "Magnit": 6495,
-    "Makro": 10122
+    "Korzinka": 7995,
+    "Magnit": 6490,
+    "Makro": 9872
    }
   },
   {
@@ -27,11 +27,11 @@
    "unit": "1 kg",
    "prices": {
     "Baraka": 13900,
-    "Havas": 13500,
+    "Havas": 13250,
     "Korzinka": 13245,
     "Magnit": 12990,
-    "Makro": 14490,
-    "Olma": 13995
+    "Makro": 13490,
+    "Olma": 13990
    }
   },
   {
@@ -43,7 +43,7 @@
     "Havas": 17900,
     "Korzinka": 17745,
     "Magnit": 17490,
-    "Makro": 18322,
+    "Makro": 18877,
     "Olma": 16995
    }
   },
@@ -56,7 +56,7 @@
     "Havas": 21500,
     "Korzinka": 20995,
     "Magnit": 19990,
-    "Makro": 19245,
+    "Makro": 21655,
     "Olma": 20495
    }
   },
@@ -66,9 +66,9 @@
    "unit": "1 kg",
    "prices": {
     "Baraka": 169900,
-    "Korzinka": 179990,
+    "Korzinka": 175990,
     "Magnit": 179990,
-    "Makro": 169990
+    "Makro": 163990
    }
   },
   {
@@ -88,7 +88,7 @@
    "prices": {
     "Baraka": 124900,
     "Havas": 84950,
-    "Korzinka": 114990,
+    "Korzinka": 119990,
     "Magnit": 139990,
     "Makro": 92990
    }
@@ -120,9 +120,9 @@
    "prices": {
     "Baraka": 49900,
     "Havas": 44900,
-    "Korzinka": 41390,
-    "Magnit": 45990,
-    "Makro": 43490,
+    "Korzinka": 39990,
+    "Magnit": 46990,
+    "Makro": 37490,
     "Olma": 44990
    }
   },
@@ -131,7 +131,7 @@
    "category": "Göşt mahsulotlari",
    "unit": "1 kg",
    "prices": {
-    "Baraka": 44900,
+    "Baraka": 49900,
     "Havas": 48900,
     "Korzinka": 49990,
     "Makro": 38990,
@@ -144,7 +144,7 @@
    "unit": "1 litr",
    "prices": {
     "Baraka": 28900,
-    "Havas": 29500,
+    "Havas": 29900,
     "Korzinka": 28390,
     "Magnit": 27990,
     "Makro": 27490,
@@ -167,11 +167,11 @@
    "unit": "1 kg",
    "prices": {
     "Baraka": 19900,
-    "Havas": 18500,
-    "Korzinka": 18290,
-    "Magnit": 19900,
-    "Makro": 18490,
-    "Olma": 18390
+    "Havas": 22900,
+    "Korzinka": 19490,
+    "Magnit": 22990,
+    "Makro": 19590,
+    "Olma": 18490
    }
   },
   {
@@ -179,12 +179,12 @@
    "category": "Sabzavot va mevalar",
    "unit": "1 kg",
    "prices": {
-    "Baraka": 6400,
-    "Havas": 7950,
+    "Baraka": 6900,
+    "Havas": 6850,
     "Korzinka": 7990,
     "Magnit": 8490,
-    "Makro": 7990,
-    "Olma": 7990
+    "Makro": 8490,
+    "Olma": 8990
    }
   },
   {
@@ -192,12 +192,12 @@
    "category": "Sabzavot va mevalar",
    "unit": "1 kg",
    "prices": {
-    "Baraka": 7900,
+    "Baraka": 6900,
     "Havas": 8850,
-    "Korzinka": 7790,
+    "Korzinka": 4890,
     "Magnit": 5490,
-    "Makro": 7990,
-    "Olma": 9990
+    "Makro": 5490,
+    "Olma": 7990
    }
   },
   {
@@ -205,12 +205,12 @@
    "category": "Sabzavot va mevalar",
    "unit": "1 kg",
    "prices": {
-    "Baraka": 4400,
-    "Havas": 3950,
-    "Korzinka": 5990,
-    "Magnit": 5490,
-    "Makro": 5990,
-    "Olma": 3890
+    "Baraka": 5400,
+    "Havas": 6450,
+    "Korzinka": 6990,
+    "Magnit": 7490,
+    "Makro": 7490,
+    "Olma": 5990
    }
   },
   {
@@ -218,12 +218,12 @@
    "category": "Sabzavot va mevalar",
    "unit": "1 kg",
    "prices": {
-    "Baraka": 21900,
-    "Havas": 22950,
-    "Korzinka": 24990,
-    "Magnit": 22490,
-    "Makro": 23490,
-    "Olma": 17990
+    "Baraka": 23900,
+    "Havas": 26950,
+    "Korzinka": 27990,
+    "Magnit": 25990,
+    "Makro": 26990,
+    "Olma": 21990
    }
   },
   {
@@ -232,11 +232,11 @@
    "unit": "1 kg",
    "prices": {
     "Baraka": 18900,
-    "Havas": 15950,
-    "Korzinka": 12990,
-    "Magnit": 20990,
-    "Makro": 19990,
-    "Olma": 14990
+    "Havas": 19950,
+    "Korzinka": 17990,
+    "Magnit": 19490,
+    "Makro": 23990,
+    "Olma": 13990
    }
   },
   {
@@ -244,11 +244,11 @@
    "category": "Boşqa",
    "unit": "1 kg",
    "prices": {
-    "Baraka": 13777,
+    "Baraka": 12111,
     "Havas": 13475,
     "Korzinka": 11995,
     "Magnit": 12990,
-    "Makro": 12766,
+    "Makro": 12155,
     "Olma": 11995
    }
   }
