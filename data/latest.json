@@ -1,5 +1,5 @@
 {
- "date": "20.11.2026",
+ "date": "25.11.2026",
  "stores": [
   "Baraka",
   "Havas",
@@ -171,7 +171,7 @@
     "Korzinka": 19490,
     "Magnit": 22990,
     "Makro": 19590,
-    "Olma": 18490
+    "Olma": 20590
    }
   },
   {
@@ -183,7 +183,7 @@
     "Havas": 6850,
     "Korzinka": 7990,
     "Magnit": 8490,
-    "Makro": 8490,
+    "Makro": 8190,
     "Olma": 8990
    }
   },
@@ -192,12 +192,12 @@
    "category": "Sabzavot va mevalar",
    "unit": "1 kg",
    "prices": {
-    "Baraka": 6900,
-    "Havas": 8850,
-    "Korzinka": 4890,
-    "Magnit": 5490,
+    "Baraka": 5900,
+    "Havas": 5450,
+    "Korzinka": 4490,
+    "Magnit": 6490,
     "Makro": 5490,
-    "Olma": 7990
+    "Olma": 5890
    }
   },
   {
@@ -205,12 +205,12 @@
    "category": "Sabzavot va mevalar",
    "unit": "1 kg",
    "prices": {
-    "Baraka": 5400,
+    "Baraka": 6900,
     "Havas": 6450,
     "Korzinka": 6990,
-    "Magnit": 7490,
+    "Magnit": 8490,
     "Makro": 7490,
-    "Olma": 5990
+    "Olma": 7490
    }
   },
   {
@@ -218,12 +218,12 @@
    "category": "Sabzavot va mevalar",
    "unit": "1 kg",
    "prices": {
-    "Baraka": 23900,
-    "Havas": 26950,
-    "Korzinka": 27990,
-    "Magnit": 25990,
+    "Baraka": 21900,
+    "Havas": 23850,
+    "Korzinka": 24990,
+    "Magnit": 23490,
     "Makro": 26990,
-    "Olma": 21990
+    "Olma": 23990
    }
   },
   {
@@ -232,11 +232,11 @@
    "unit": "1 kg",
    "prices": {
     "Baraka": 18900,
-    "Havas": 19950,
+    "Havas": 25950,
     "Korzinka": 17990,
     "Magnit": 19490,
-    "Makro": 23990,
-    "Olma": 13990
+    "Makro": 26990,
+    "Olma": 26990
    }
   },
   {
